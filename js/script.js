@@ -9,7 +9,7 @@ function fillCounters() {
         getData('people/'),
         getData('starships/'),
         getData('planets')
-    ])
+    ]);
         .then(data => {
             persons.style.fontSize = '5em';
             starships.style.fontSize = '5em';
@@ -18,7 +18,7 @@ function fillCounters() {
             persons.innerHTML = data[0].count;
             starships.innerHTML = data[1].count;
             planets.innerHTML = data[2].count;
-        })
+        });
         .catch(err => console.log('Erro:', err))
 };
 
@@ -42,7 +42,7 @@ function loadPhrase() {
                 { transform: 'translateY(0px)' }
             ], {
                 duration: 500
-            })
-        })
+            });
+        });
         .catch(err => console.log('Erro: ', err))
 };
