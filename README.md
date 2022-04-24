@@ -1,5 +1,4 @@
 # star-front
- Projeto: Star-Devs (Consumo de API utilizando Javascript puro e mostrando os dados para o usuário)
- Tema: Star Wars
+ Project: Star-Devs (API consumption using pure Javascript and showing the data to the user) Theme: Star Wars
  
  
